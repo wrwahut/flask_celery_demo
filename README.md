@@ -1,2 +1,12 @@
 # flask_celery_demo
-use celery with the flask application, the demo have db operator just with redis
+use celery with the flask context, the demo have no db operator just with redis
+
+
+step: open three terminals
+   first: start celery command as;
+        celery -A celery_worker worker -l info
+   second: start flask application ,the command is :
+        python run.py
+   final: run the bash command 
+        curl https://localhost:9000/index
+        
