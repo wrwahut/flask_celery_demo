@@ -3,7 +3,7 @@ use celery with the flask context, the demo have no db operator just with redis
 
 
 ## step: open three terminals（your redis server is opening,if not please run redis-server）
-### first: start celery command as;
+### first: start celery command as:
         celery -A celery_worker worker -l info
 ### second: start flask application ,the command is :
         python run.py
